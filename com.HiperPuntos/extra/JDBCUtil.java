@@ -22,8 +22,8 @@ public class JDBCUtil {
         CONN_PROPSS.put("serverTimezone", "America/Argentina/Cordoba");
 
         CONN_PROPSS.put("port", "3306");
-        CONN_PROPSS.put("user","root");
-        CONN_PROPSS.put("password", "#Jackbauer24#");
+        CONN_PROPSS.put("user","");
+        CONN_PROPSS.put("password", "");
     }
 
     public static Connection getConnection() throws SQLException{
